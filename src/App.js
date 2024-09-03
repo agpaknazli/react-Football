@@ -1,10 +1,18 @@
-import Container from "react-bootstrap/Container"
+import Container from "react-bootstrap/Container";
+import Header from "./components/header/Header";
+
+
+
 
 function App() {
   return (
-    // <div className="container">
-  <h1>hello</h1>
-    // </div>
-  )
+   
+
+<Container>
+  <Header/>
+</Container>
+
+  );
 }
+
 export default App;
