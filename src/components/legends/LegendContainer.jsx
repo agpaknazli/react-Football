@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import {data} from "../../helpers/data";
 import {CardFooter} from "react-bootstrap";
-
+import { useState } from "react";
 
 const LegendContainer = () => {
 
