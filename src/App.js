@@ -5,14 +5,11 @@ import Header from "./components/header/Header";
 
 
 function App() {
-  return (
-   
+  return (<Container  className="text-center my-5"> 
 
-<Container>
   <Header/>
-</Container>
 
-  );
+</Container>);
 }
 
 export default App;
