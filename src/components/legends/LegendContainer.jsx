@@ -18,10 +18,10 @@ const LegendContainer = () => {
         {data.map((Legend) => (
           <Col xs={10} sm={8} md={6} lg={4} xl={3}>
             <Card>
-{show ?  <Card.Img variant="top" src={Legend.img} /> : 
+{show ?  <Card.Img onClick={()=>setShow(false)} variant="top" src={Legend.img} /> : 
 <>
 <Card.Body>
-                <Card.Title>{Legend.name}</Card.Title>
+                <Card.Title onClick={()=>setShow(true)} >{Legend.name}</Card.Title>
                 <ul className="m-auto">
                   {Legend.statistics.map((item) => (
                     <li className="list-unstyled h5 text-start">🎉 {item}</li>
