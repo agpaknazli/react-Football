@@ -13,18 +13,18 @@ const LegendCard = ({legend}) => {
     const [show,setShow]=useState(true);
   return (
     <Col xs={10} sm={8} md={6} lg={4} xl={3}>
-            <Card onClick={()=>setShow(!false)}>
+            <Card onClick={()=>setShow(!show)} role="button">
 {show ?  <Card.Img 
 // onClick={()=>setShow(false)} 
-variant="top" src={legend.img} /> : 
+variant="top" src={legend.img} title={legend.name} /> : 
 <>
 <Card.Body>
                 <Card.Title
                 //  onClick={()=>setShow(true)}
                  >{legend.name}</Card.Title>
-                <ul className="m-auto">
+                <ul className="m-auto p-0">
                   {legend.statistics.map((item) => (
-                    <li className="list-unstyled h5 text-start">🎉 {item}</li>
+                    <li className="list-unstyled text-start h5 ">🎉 {item}</li>
                   ))}
                 </ul>
             
