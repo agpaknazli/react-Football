@@ -640,21 +640,5 @@ export const data = [
     profile: "https://www.transfermarkt.com.tr/xavi/profil/spieler/7607",
     official_career: "1995-2020",
   },
-  {
-    id: 74,
-    name: "Zico",
-    img: "https://media1.faz.net/ppmedia/aktuell/3510591925/1.2985617/default-retina/zico-bejubelt-seinen-treffer.jpg",
-    statistics: ["113 Matches", "67 Goals", "12 Assists", "7 Cups"],
-    profile: "https://www.transfermarkt.com.tr/zico/profil/spieler/117619",
-    official_career: "1971-1995",
-  },
-  {
-    id: 75,
-    name: "Zinedine Zidane",
-    img: "https://cdn.artphotolimited.com/images/5a09bb8dcfe9056714cea41c/1000x1000/zinedine-zidane-2-2008-couleur.jpg",
-    statistics: ["689 Matches", "125 Goals", "141 Assists", "23 Cups"],
-    profile:
-      "https://www.transfermarkt.com.tr/zinedine-zidane/profil/spieler/3111",
-    official_career: "1988-2007",
-  },
+
 ];
