@@ -5,7 +5,7 @@ import headerstyle from "./Header.module.css"
 
 const Header=()=>{
     return <Container className={headerstyle.Container}>
-<Image src={logo} width={"200px"}  /> <br/> <br/> 
+<Image src={logo} width={"200px"} /> <br/> <br/> 
 <h1 className={headerstyle.title}>Football Legends</h1>
     </Container>
     

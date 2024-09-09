@@ -12,3 +12,27 @@ body {
   background-attachment: fixed;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.card-container {
+  background-color: rgba(31, 73, 124, 0.6);
+  min-height: 350px;
+}
+
+.player-card {
+  height: 350px;
+  overflow: hidden;
+  & img {
+    /* filter:blur(3px); */
+    transition: transform 0.3s;
+    height: 16rem;
+    width: 20rem;
+    filter: sepia(5);
+  }
+  &:hover {
+    box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+    & img {
+      transform: scale(1.2);
+      filter: none;
+    }
+  }
+}
