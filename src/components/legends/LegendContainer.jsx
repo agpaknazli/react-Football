@@ -21,6 +21,7 @@ const LegendContainer = () => {
       setSearch(e.target.value)
     }
 
+    const filtereData= data.filter(legend=>legend.name.toLocaleLowerCase().includes(search.trim().toLocaleLowerCase()))
   return (
 
 <>
