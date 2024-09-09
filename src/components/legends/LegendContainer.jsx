@@ -15,10 +15,16 @@ const LegendContainer = () => {
 
     const [show,setShow]=useState(true);
 
+    const[search, setSearch]=useState("")
+
+    const handleChange=(e)=>{
+      setSearch(e.target.value)
+    }
+
   return (
 
 <>
-<Form.Control type="email" placeholder="name@example.com" />
+<Form.Control type="search" onClick={(e)=>handleChange(e)} placeholder="Search Legends" />
 
     <Container>
       <Row>
