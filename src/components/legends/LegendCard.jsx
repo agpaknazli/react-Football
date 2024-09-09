@@ -34,7 +34,7 @@ const LegendCard = ({ legend }) => {
             </Card.Header>
             <ul className="m-auto ps-0">
               {legend.statistics.map((item) => (
-                <li className="list-unstyled h5 text-start">⚽{item}</li>
+                <li className="list-unstyled h5 text-start">🎉{item}</li>
               ))}
             </ul>
             <Card.Footer>Career Years : {legend.official_career}</Card.Footer>
